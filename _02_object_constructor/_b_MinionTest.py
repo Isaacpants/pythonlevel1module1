@@ -11,6 +11,7 @@ import unittest
 
 # TODO 2) To make these tests pass, you will first need to create a Minion
 #  class with the member variables below:
+
 #   name
 #   eyes
 #   color
@@ -18,6 +19,10 @@ import unittest
 class Minion():
     def __init__(self,name,eyes,color,master):
         self.name = name
+        self.eyes = eyes
+        self.color = color
+        self.master = master
+
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
